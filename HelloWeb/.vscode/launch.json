@@ -5,8 +5,10 @@
         "type": "chrome",
         "request": "launch",
         "name": "Launch Chrome against localhost",
-        "url": "file:/home/kos/ts/HelloWeb/helloweb.html",
-        "webRoot": "${workspaceFolder}"
+        "url": "file:/home/kos/ts/typescript-vscode-helloworld-helloweb/HelloWeb/helloweb.html",
+        "webRoot": "${workspaceFolder}",
+        "preLaunchTask": "tsc: build - tsconfig.json"
+ 
       }
     ]
   }
