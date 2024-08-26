@@ -24,7 +24,6 @@ The following Visual Studio Code extensions are recommended for this project:
 
 
 
-This template provides a starting point for developing a web application using TypeScript in Visual Studio Code (vscode). It includes a basic project structure, TypeScript and vscode configuration for building and watching your TypeScript files effects in a web page.
 
 ## Features
 
