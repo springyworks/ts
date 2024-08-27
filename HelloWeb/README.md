@@ -6,8 +6,8 @@ This template provides a starting point for developing a web application using T
 
 - **TypeScript**: Strongly typed programming language that builds on JavaScript.
 - **VSCode Integration**: Optimized for development in Visual Studio Code with tasks and launch configurations.
-- **Live Preview**: Use the "Live Preview" extension from Microsoft for real-time updates.
-- **Automated Build**: Scripts for building and watching TypeScript files.
+- **Live Preview**: Use the "Live Preview" extension from Microsoft for real-time updates of the web page contents.
+- **Automated Build**: Scripts for building and wrunning TypeScript files using vscode Run/Debug (F5) .
 
 
 
@@ -75,6 +75,7 @@ The project structure is organized as follows:
 
 ```plaintext
 HelloWeb
+.
 ├── index.html
 ├── out
 │   ├── tswebapp.js
@@ -83,8 +84,12 @@ HelloWeb
 ├── README.md
 ├── src
 │   └── tswebapp.ts
-└── tsconfig.json
+├── tsconfig.json
+└── .vscode
+    ├── launch.json
+    └── tasks.json
 ```
+
 
 ## License
 
