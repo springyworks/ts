@@ -5,9 +5,10 @@
       "type": "chrome",
       "request": "launch",
       "name": "Launch Chrome against localhost",
-      "url": "${fileDirname}/../index.html",
-      "webRoot": "${fileDirname}/..",
-      "preLaunchTask": "tsc: build - tsconfig.json"
+      "url": "file://${workspaceFolder}/index.html",
+      "webRoot": "${workspaceFolder}",
+      //"preLaunchTask": "tsc: build - tsconfig.json",
+      "preLaunchTask": "tsc: watch - tsconfig.json"
     }
   ]
 }

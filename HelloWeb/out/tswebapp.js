@@ -1,3 +1,3 @@
 "use strict";
-var message = 'Hello nnnjnbeetje 😎hzon zou leuk zijn van kos';
+var message = 'Hello springyworks  Web App template';
 document.body.innerHTML = message;

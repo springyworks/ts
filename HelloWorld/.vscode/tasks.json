@@ -12,6 +12,7 @@
 				"isDefault": true
 			},
 			"label": "tsc: build - tsconfig.json"
-		}
+		},
+
 	]
 }

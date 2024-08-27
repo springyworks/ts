@@ -1,2 +1,2 @@
-let message: string = 'Hello springyworks weer een  Web van kos';
+let message: string = 'Hello springyworks  Web ';
 document.body.innerHTML = message;

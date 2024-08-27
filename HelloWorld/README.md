@@ -1,0 +1,1 @@
+run the tiny typescript all within vscode
